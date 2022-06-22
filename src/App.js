@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react'
+import './App.css';
 import Signin from './components/signin/Signin';
 import Signup from './components/signup/Signup';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CustomRoute } from './constants/RouteConstant';
 
 class App extends React.Component {
