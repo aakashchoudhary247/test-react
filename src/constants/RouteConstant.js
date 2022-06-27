@@ -1,5 +1,7 @@
 export const CustomRoute = {
     HOME: '/',
     SIGNIN: '/signin',
-    SIGNUP: '/signup'
+    SIGNUP: '/signup',
+    USERS: '/users',
+    USERFUNCTION: '/users/test'
 }
